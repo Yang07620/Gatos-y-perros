@@ -10,9 +10,11 @@ st.markdown("Puja una imatge i la IA et dirà si veu un gos o un gat! 🧠")
 
 uploaded_file = st.file_uploader("📤 Pujar imatge (jpg, png)", type=["jpg", "jpeg", "png"])
 
+# Verifiquem que els fitxers del model existeixen
 if not os.path.exists("model_gats_gossos.json") or not os.path.exists("model_gats_gossos.weights.h5"):
     st.error("❌ El model no s'ha trobat. Assegura't que els fitxers JSON i WEIGHTS estiguin pujats correctament al teu repositori.")
 else:
+    # Carreguem el model un cop, fora del bloc 'if uploaded_file'
     with open("model_gats_gossos.json", "r") as json_file:
         model_json = json_file.read()
 
