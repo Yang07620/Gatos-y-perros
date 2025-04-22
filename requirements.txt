@@ -1,0 +1,4 @@
+tensorflow==2.12.0  # o la versión que estés utilizando
+streamlit
+Pillow  # para la manipulación de imágenes
+numpy  # si aún no está instalado
