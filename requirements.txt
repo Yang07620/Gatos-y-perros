@@ -1,4 +1,4 @@
-tensorflow==2.16.0  # o 2.17.0, que son versiones recientes compatibles con Python 3.12
+tensorflow==2.15.0
 streamlit
 Pillow
 numpy
