@@ -8,6 +8,7 @@ Aquesta aplicació web utilitza una xarxa neuronal simple per classificar si una
 
 👉 [Obre l'app a Streamlit](https://gatos-y-perros-bktkt9ahtg95csfdqdcmys.streamlit.app)
 
+---
 
 ## 📁 Arxius del projecte
 
