@@ -4,12 +4,6 @@ Aquesta aplicació web utilitza una xarxa neuronal simple per classificar si una
 
 ---
 
-## 🔗 Prova l’app
-
-👉 [Obre l'app a Streamlit](https://TU-USUARI.streamlit.app) *(substitueix amb el teu enllaç real)*
-
----
-
 ## 📁 Arxius del projecte
 
 - `app.py` – Aplicació Streamlit
@@ -19,10 +13,19 @@ Aquesta aplicació web utilitza una xarxa neuronal simple per classificar si una
 
 ---
 
-## ▶️ Com fer-lo servir
+## 🔧 Creat amb
 
-1. Clona el repositori:
-   ```bash
-   git clone https://github.com/TU-USUARI/classificador-gats-gossos.git
-   cd classificador-gats-gossos
+Python 3.9
 
+TensorFlow 2.12
+
+Streamlit
+
+---
+
+## 💡 Què fa
+Puja una imatge JPG o PNG
+
+El model la processa i diu si veu un gat o un gos
+
+Mostra el resultat amb un percentatge de confiança
