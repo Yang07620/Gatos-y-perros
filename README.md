@@ -1,33 +1,28 @@
-🧠 PP6 - Classificació d’Imatges de Gossos i Gats amb IA
-Aquest projecte permet entrenar un model d’intel·ligència artificial que classifica imatges com a gossos o gats, i desplegar una interfície web per fer prediccions.
+# 🐶🐱 Classificador de Gossos i Gats amb IA
 
-🎯 Objectius
-Entrenar un model CNN amb TensorFlow/Keras.
-Aprendre a usar Google Colab per evitar instal·lacions locals.
-Crear una web interactiva amb Streamlit al núvol.
-Mostrar prediccions visuals amb probabilitat i estil.
-🧪 Estructura del projecte
-app.py -> Interfície Streamlit
-model_gats_gossos.h5 # Model entrenat
-requirements.txt # Llista de dependències
-README.md # Guia del projecte
-🧰 Tecnologies utilitzades
-Python 3
-TensorFlow & Keras
-Google Colab
-Streamlit
-GitHub + Streamlit Cloud
-🚀 Execució de l'app Streamlit
-Entrena i desa el model a Google Colab.
-Crea un repositori a GitHub amb els fitxers:
-app.py
-model_gats_gossos.h5
-requirements.txt
-Accedeix a Streamlit Cloud i crea una nova app.
-Connecta el repositori i selecciona app.py com a fitxer principal.
-La teva app ja estarà online!
-📸 Exemple d'ús
+Aquesta aplicació web utilitza una xarxa neuronal simple per classificar si una imatge mostra un **gos** o un **gat**.
 
+---
 
-✅ Resultat final
-L’usuari pot pujar una imatge i la web li dirà si veu un gat 🐱 o un gos 🐶, amb el percentatge de confiança.
+## 🔗 Prova l’app
+
+👉 [Obre l'app a Streamlit](https://TU-USUARI.streamlit.app) *(substitueix amb el teu enllaç real)*
+
+---
+
+## 📁 Arxius del projecte
+
+- `app.py` – Aplicació Streamlit
+- `model_gats_gossos.json` – Estructura del model IA
+- `model_gats_gossos.weights.h5` – Pesos entrenats
+- `requirements.txt` – Dependències del projecte
+
+---
+
+## ▶️ Com fer-lo servir
+
+1. Clona el repositori:
+   ```bash
+   git clone https://github.com/TU-USUARI/classificador-gats-gossos.git
+   cd classificador-gats-gossos
+
