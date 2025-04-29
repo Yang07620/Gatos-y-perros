@@ -21,6 +21,7 @@ TensorFlow 2.12
 
 Streamlit
 
+Google Colab
 ---
 
 ## 💡 Què fa
